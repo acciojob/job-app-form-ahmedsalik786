@@ -7,6 +7,42 @@
 </head>
 
 <body>
+	<form>
+		<div>
+			<level for="name"> Name*</level>
+			<input type="text" name="name" required>
+		</div>
+		<div>
+			<level for="Email"> Email*</level>
+			<input type="email" name="email" required>
+		</div>
+		<div>
+			<level for="gender"> Gender*</level>
+			<input type="radio" name="gender" value="male" required>male
+			<input type="radio" name="gender" value="female" required>female
+		</div>
+		<section required>
+			<level for="Laptop-Brands"> Laptop Brands</level>
+			<option value"apple">Apple</option>
+			<option value"asus">Asus</option>
+			<option value"HP">HP</option>
+		</section>
+		<div>
+			<level for="age"> Age*</level>
+			<input type="number" name="age" required>
+		</div>
+		<div>
+			<level for="DOB"> DOB*</level>
+			<input type="datetime-local" name="DOB" required>
+		</div>
+		<div>
+			<level for="password"> Password*</level>
+			<input type="password" name="password" required>
+		</div>
+		<div>
+		<button>Submit</button>	
+		</div>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
